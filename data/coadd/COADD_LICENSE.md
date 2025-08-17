@@ -1,0 +1,1 @@
+COADD was released by its authors at https://doi.org/10.4155/fsoa-2016-0093 under a Creative Commons License 4.0. A copy of the license can be obtained at https://creativecommons.org/licenses/by/4.0/

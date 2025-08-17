@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dockbiotic"  # Required
+version = "0.0.1"
+description = "Transfer learning for virtual screening of antibiotics"  # Optional
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+authors = [
+    {name = "Miguel García-Ortegón", email = "miguel.garcia.ortegon@gmail.com" },
+    {name = "Srijit Seal", email = "srijit@email.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage="https://github.com/mgarort/dockbiotic"
+
+[tool.setuptools]
+# Specifies location of package to install
+# Guidance from: https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+packages = ["dockbiotic"]
+
+[tool.setuptools_scm]
